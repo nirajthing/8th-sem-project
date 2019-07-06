@@ -1,0 +1,164 @@
+{% block body %}
+
+{% if error %}
+{{ error }}
+<br>
+{% endif %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Signup form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('data:image/jpeg;base64,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');
+            background-size: cover;
+            background-position: center;
+            font-family: sans-serif;
+            height: 100vh;
+        }
+
+        #loginbtn {
+            padding: 10px;
+            width: 100px;
+            margin-left: 30%;
+        }
+
+        #loginbtn:hover {
+            transition: 0.5s;
+        }
+
+        .loginbox {
+            width: 320px;
+            height: 420px;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            box-sizing: border-box;
+            padding: 70px 30px;
+            border-radius: 5px;
+
+        }
+
+        #logininput {
+            border-radius: 5px;
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            top: -50px;
+            left: calc(50% - 50px);
+
+        }
+
+        h1 {
+            margin: 0;
+            padding: 0 0 20px;
+            text-align: center;
+            font-size: 22px;
+        }
+
+        .loginbox p {
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+
+        }
+
+        .loginbox input {
+            width: 100%;
+            margin-bottom: 20px;
+
+        }
+
+        .loginbox input[type="text"],
+        input[type="password"] {
+            border: none;
+            border-bottom: 1px solid #fff;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        .loginbox input[type="submit"] {
+            border: none;
+            outline: none;
+            background: #1c8adb;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 50px;
+
+        }
+
+        .loginbox input[type="submit"]:hover {
+            cursor: pointer;
+            background-color: rgb(7, 53, 47);
+
+        }
+
+        .loginbox a {
+            text-decoration: none;
+            font-size: 14px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .loginbox a:hover {
+            color: rgb(28, 122, 110);
+        }
+
+        #text {
+            margin: 23%;
+        }
+
+        #text:hover {
+            color: black;
+            transition: 0.3s;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="{%url 'signup' %}" method="POST">
+        {% csrf_token %}
+        <div class="loginbox">
+            <img src="https://png.pngtree.com/svg/20170331/1ec867769d.svg" class="avatar">
+            <h1>Sign Up</h1>
+            <form>
+
+                <p>Username</p>
+                <input id="logininput" type="text" name="username" placeholder="Enter usename">
+                <p>Password</p>
+                <input id="logininput" type="password" name="password1" placeholder="Enter password">
+                <p>Confirm Password</p>
+                <input id="logininput" type="password" name="password2" placeholder="Confirm password">
+                <input id="loginbtn" type="submit" value="signup!"><br>
+            </form>
+        </div>
+    </form>
+</body>
+
+</html>
+{% endblock %}
