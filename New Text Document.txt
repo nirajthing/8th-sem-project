@@ -1,0 +1,91 @@
+<body>
+    <!-- <h1> LAPTOP PRICE IN NEPAL</h1>
+
+    <h2>Acer Laptop Price in Nepal</h2>
+
+    <h3>Core i3 Models Price</h3>
+
+    <ul>
+        <li>Aspire E5-476 Rs 55,500</li>
+        <li>Aspire E5-576 Rs 56,500</li>
+        <li>Aspire E5-476 Rs 59,000 (Windows 10)</li>
+        <li>Aspire E5-576 Rs 59,000 (Windows 10)</li>
+    </ul>
+
+    <h3>Core i5 Models Price</h3>
+
+    <ul>
+        <li>Aspire E5-476 Rs 69,500</li>
+        <li>Aspire E5-576 Rs 70,000</li>
+        <li>Aspire E5-476 Rs 71,500 (Windows 10)</li>
+        <li>Aspire E5-576 Rs 71,500 (Windows 10)</li>
+        <li>Travelmate TMP2410 G2 Rs 71,500</li>
+        <li>Travelmate TMP2410 G2 Rs 71,500</li>
+        <li>Aspire E5-576G Rs 75,500</li>
+        <li>Aspire E5-576G Rs 82,000 (Windows 10))</li>
+    </ul>
+
+    <h3>Core i7 Models Price</h3>
+
+    <ul>
+        <li>Aspire E5-476G Rs 102,000</li>
+        <li>Travelmate TMP2510 G2 Rs 105,000</li>
+        <li>Travelmate TMP2510 G2 Rs 103,000 (Windows 10)</li>
+        <li>Predator Helios 315 Rs 206,250</li>
+    </ul>
+
+    <h2>Asus Laptop Price in Nepal</h2>
+
+    <h3>Notebook Models Price </h3>
+
+    <ul>
+        <li>X407MA Rs 46,000</li>
+        <li>X507MA Rs 46,000</li>
+        <li>E203NAH Rs 44,375</li>
+        <li>X441UA Rs 56,000</li>
+        <li>X442UA Rs 63,000</li>
+        <li>X407UA Rs 81,375</li>
+        <li>X505BP Rs 83,000</li>
+        <li>X542UA Rs 82,000</li>
+        <li>P2440UA Rs 82,375</li>
+        <li>X540UB Rs 90,000</li>
+        <li>X542UF Rs 95,000</li>
+        <li>X542UN Rs 107,000</li>
+    </ul>
+
+    <h3>VivoBook (Ultrabook) Models Price </h3>
+
+    <li>X510UA Rs 71,250</li>
+    <li>S420UA Rs 75,000</li>
+    <li>S510UA Rs 75,000</li>
+    <li>S510UN Rs 111,250</li>
+    <li>S510UN Rs 137,500</li>
+
+    <h3>Zenbook Models Price </h3>
+    <li>UX410UA Rs 107,500</li>
+    <li>UX430UA Rs 122,500</li>
+
+    <h2>Dell Laptop Price in Nepal</h2>
+
+    <h3>Dell Inspiron 3000 Series Price</h3>
+
+    <li>Inspiron 15 3573 Rs 40,900</li>
+    <li>Inspiron 15 3567 Rs 46,070</li>
+    <li>Inspiron 14 3467 Rs 46,900</li>
+    <li>Inspiron 14 3476 Rs 73,200</li>
+    <li>Inspiron 15 3576 Rs 74,900</li>
+
+    <h3>Dell Inspiron 5000 Series Price</h3>
+
+    <li>Inspiron 14 5468 Rs 65,500</li>
+    <li>Inspiron 14 5468 Rs 65,900</li>
+    <li>Inspiron 14 5468 Rs 69,000</li>
+    <li>Inspiron 15 5570 Rs 70,200</li>
+    <li>Inspiron 15 5467 Rs 79,500</li>
+    <li>Inspiron 15 5467 Rs 75,500</li>
+    <li>Inspiron 14 5567 Rs 85,500</li>
+    <li>Inspiron 15 5570 Rs 91,500</li>
+    <li>Inspiron 15 5570 Rs 96,500</li>
+
+    <h3>Dell Inspiron 7000 Series Price</h3>
+    <li>Inspiron 13 7370 Rs 142,900</li> -->

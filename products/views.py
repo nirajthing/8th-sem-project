@@ -48,3 +48,6 @@ def contactus(request):
 
 def aboutus(request):
 	return render(request,'accounts/aboutus.html')
+
+def laptopprice(request):
+	return render(request,'accounts/laptopprice.html')

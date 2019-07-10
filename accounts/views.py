@@ -45,3 +45,6 @@ def aboutus(request):
 def home(request):
 	products = Product.objects
 	return render(request, 'products/home.html',{'products':products})
+	
+def laptopprice(request):
+	return render(request, 'accounts/laptopprice.html')
