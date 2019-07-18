@@ -4,8 +4,7 @@ from .models import Product
 from django.utils import timezone
 
 def home(request):
-	products = Product.objects
-	return render(request, 'products/home.html',{'products':products})
+	return render(request, 'products/home.html')
 	
 @login_required(login_url="/accounts/signup")
 def create(request):
@@ -51,3 +50,8 @@ def aboutus(request):
 
 def laptopprice(request):
 	return render(request,'accounts/laptopprice.html')
+
+def view(request):
+	products = Product.objects
+
+	return render(request,'products/viewproduct.html',{'products':products})

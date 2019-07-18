@@ -21,7 +21,7 @@
 
     @import url('https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap');
     body {
-      background: url('https://www.copypress.com/wp-content/uploads/2017/10/Resource-landing-page-background.jpg');
+      background: url('https://creativealliance.org.uk/wp-content/uploads/2016/11/photo-1468436139062-f60a71c5c892.jpg');
       height: 100%;
       background-size: cover;
       background-attachment: fixed;
@@ -33,7 +33,7 @@
    
 
     .nav-item {
-      color: aliceblue;
+      color: #8a00d4;
       font-family: 'Poppins', sans-serif;
       font-size: 20px;
       margin-left: 35px;
@@ -42,11 +42,16 @@
     }
 
     .nav-item:hover {
-      background: rgb(255, 255, 255);
+      background: #d3d4ce;
       transition: 0.6s;
-      color: rgb(0, 0, 0);
+      color: #155e63;
     }
 
+    .navbar {
+      height: 60px;
+      background-color: #e8e8e8;
+      
+    }
     #mainhead {
       float: left;
       margin-left: 30px;
@@ -67,11 +72,10 @@
       color: whitesmoke;
       margin-top: 140px;
       position: absolute;
-    }
-
-    nav {
-      height: 60px;
+      background: rgba(0,0,0,.5);
       
+      padding: 7px;
+      border-radius: 10px;
     }
 
     .bd-placeholder-img {
@@ -93,7 +97,7 @@
 
     #head1 {
       font-size: 20px;
-      color: rgb(255, 255, 255);
+      color: rgb(24, 23, 23);
     }
 
     @media (min-width: 768px) {
@@ -124,10 +128,12 @@
       width: 250px;
       padding: 5px;
       display: inline-block;
-      background: rgb(99, 99, 99);
+      background-color: aliceblue;
       position: relative;
       z-index: 1;
-      
+      margin-bottom: 15px;
+      margin-top: 15px;
+      margin-left: 130px;
     }
 
     .btn{
@@ -149,7 +155,7 @@
 
     /* On mouse-over, add a deeper shadow */
     .card:hover {
-      background-color: rgb(255, 255, 255);
+      background-color: rgb(155, 151, 151);
       color:black;
       cursor: pointer;
     }
@@ -169,18 +175,19 @@
 </head>
 
 <body>
-      <nav class="navbar navbar-expand-lg sticky-top bg-dark">
-          <a class="navbar-brand" href=""><img src="{% static 'logo.png' %}" class="align-top"  height="30" width="30"></a>
+  
+      <nav class="navbar navbar-expand-lg sticky-top">
+          <a href="/"><img src="{% static 'newlogo.png' %}" class="align-top"  height="100" width="100"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="cyollapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="home/">View products</a>
-              <a class="nav-item nav-link" href="about-us/">About Us</a>
-              <a class="nav-item nav-link" href="contact-us/">Contact Us</a>
-              <a class="nav-item nav-link" href="laptop-price/">Top Picks</a>
+              <a class="nav-item nav-link" href="{% url 'view' %}">View products</a>
+              <a class="nav-item nav-link" href="{% url 'aboutus' %}">About Us</a>
+              <a class="nav-item nav-link" href="{% url 'contactus' %}">Contact Us</a>
+              <a class="nav-item nav-link" href="{% url 'laptopprice' %}">Top Picks</a>
               
               
             </div>
@@ -199,17 +206,10 @@
       <a class="nav-item d-none d-md-inline-block" href="{% url 'signup' %}">Signup</a>
       <a class="nav-item d-none d-md-inline-block" href="{% url 'login' %}">Login</a>
 
-      {% endif %}
+      {% endif %} 
     </div>
   </nav>
-  <h1 id="mainhead">This is Laptop Trends</h1><br><br><br><br><br><br>
-  <p id="para">We provide various informations and <br> details about the laptops of all <br> brands. All the upcoming
-    brands as well <br> as the latest laptops can be viewed here.</p>
-
-    <button class="btn text-black btn-lg">Explore</button>
-
-
-  <div class="container">
+  
     {% block body %}
 
 

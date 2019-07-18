@@ -26,6 +26,8 @@ urlpatterns = [
     path('contact-us/',views.contactus, name="contactus"),
     path('about-us/',views.aboutus, name="aboutus"),
     path('home/', views.home,name='home'),
+   	path('view/',views.view,name='view'),
+
     path('laptop-price/', views.laptopprice,name='laptopprice'),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
